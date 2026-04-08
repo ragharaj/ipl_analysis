@@ -21,3 +21,10 @@ match_metadata_schema = StructType([
     StructField("umpire2", StringType(), True),
     StructField("umpire3", StringType(), True)
 ])
+
+people_schema = StructType([
+    StructField("player_id", StringType(), False),
+    StructField("playner_name", StringType(), True),
+    StructField("unique_name", StringType(), True),
+    StructField("key_cricinfo", StringType(), True),
+])
